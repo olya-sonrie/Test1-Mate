@@ -1,0 +1,58 @@
+/* --- Components design --- */
+@import url("components/header.css");
+@import url("components/features.css");
+@import url("components/get_notified.css");
+@import url("components/get_in_touch.css");
+@import url("components/footer.css");
+
+/* --- Fonts --- */
+@font-face {
+    font-family: Pompadur;
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+
+body {
+    width: 100%;
+    justify-content: center;
+}
+section {
+    display: flex;
+}
+
+a:hover,
+a:focus,
+a:active {
+    background-color: #2ECC71;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.4em!important;
+}
+
+h4 {
+    margin-top: 12%;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 0.84em;
+    color: #848484;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #6ACC93;
+    border: 1px solid #6ACC93;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #2ECC71;
+    border: 1px solid #2ECC71;
+}

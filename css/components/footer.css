@@ -1,0 +1,19 @@
+.footer {
+    background-color: #E3E3E3;
+    padding: 2em 0;
+}
+
+.footer nav .container-fluid {
+    justify-content: center;
+}
+
+.nav-link {
+    color: #848484;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: #2ECC71;
+    background-color: transparent;
+}

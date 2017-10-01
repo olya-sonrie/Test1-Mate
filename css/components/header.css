@@ -1,0 +1,49 @@
+.header {
+    border-top: 0.6em solid #2ECC71;
+    background: url("../../img/background.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_text {
+    max-width: 30%;
+    margin-top: 12.5%;
+}
+
+.header_text span {
+    color: #2ECC71;
+}
+
+.link_b {
+    background-color: #000000;
+    width: 3.3em;
+    height: 3.3em;
+    border-radius: 50%;
+    text-align: center;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
+
+.link_b .fa {
+    margin-top: 25%;
+    font-size: 1.6em;
+}
+
+.link_b:hover,
+.link_b:focus,
+.link_b:active {
+    color: #F4F4F4;
+    opacity: 1;
+}
+
+.header_link {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 13em;
+}
+
+.header_img {
+    margin-top: 7%;
+}

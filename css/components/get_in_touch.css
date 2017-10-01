@@ -1,0 +1,19 @@
+.get_in_touch {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 3.5em 0;
+}
+
+.header_part {
+    width: 45em;
+}
+
+.header_part p {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.footer_part h4 {
+    margin-top: 1em;
+}
